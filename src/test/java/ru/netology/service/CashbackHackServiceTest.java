@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
-    void remain1() {
+    public void remain1() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1;
@@ -19,7 +19,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    void remain1000() {
+    public void remain1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1000;
@@ -30,7 +30,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    void remain1001() {
+    public void remain1001() {
 
            CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1001;
